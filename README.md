@@ -11,3 +11,4 @@
 * NPM
 * [Pexels - Website mit linzenfreien Bildern](https://www.pexels.com/de-de/)
 * [MongoDB](https://account.mongodb.com/account/login)
+* [Für MAC Nutzer brew als Paketverwaltung](https://brew.sh)
