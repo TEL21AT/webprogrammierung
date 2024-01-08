@@ -12,86 +12,121 @@
     <style>
         body {
             font-family: 'Inclusive Sans', sans-serif;
+            background-color: darkgoldenrod;
+        }
+
+        nav {
+            color: brown;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .table-container {
+            width: auto;
+            /* Passt die Breite an den Inhalt an */
+            padding: 10px;
+            /* Optional: Fügt etwas Abstand innerhalb des Containers hinzu */
+            /* border: 1px solid black; Fügt einen Rahmen hinzu */
+        }
+
+        table {
+            width: 100%;
+            /* Stellt sicher, dass die Tabelle die volle Breite des Containers einnimmt */
+            border-collapse: collapse;
+            /* Entfernt Abstände zwischen den Tabellenzellen */
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid red;  /* fügt roten Rand hinzu */
+        }
+
+        .main-container {
+            background-color: whitesmoke;
         }
     </style>
 </head>
 
 <body>
     <nav>
-        <a href="https://www.example.com" target="_blank">Öffne Beispiel.com in einem neuen Tab</a>
-        <br>
-        <a href="mailto:someone@example.com">Sende eine E-Mail</a>
-        <br>
-        <!-- Link, der zu einem Abschnitt der Seite führt -->
-        <a href="#section1">Gehe zu Listen Elementen</a>
+        <div>
+            <h1>Willkommen auf dem Movie Blog</h1>
+            <p>Hier gibt es die neusten Infos über die besten Filme.</p>
+        </div>
+        <div>
+            <a href="#">Home</a>
+            <a href="https://www.example.com" target="_blank">Film Liste</a>
+            <!-- Link, der zu einem Abschnitt der Seite führt -->
+            <a href="#section1">Kontakt</a>
+        </div>
     </nav>
 
-    <h1>Willkommen auf dem Movie Blog</h1>
-    <p>Hier gibt es die neusten Infos über die besten Filme.</p>
+    <div class="main-container">
+        <img width="70%" src="header.jpg" alt="header.jpg">
 
-    <img width="70%" src="header.jpg" alt="header.jpg">
+        <h2>Tabellen Element</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Bild</th>
+                        <th>Filmtitel</th>
+                        <th>Streaming-Plattform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img width="30%" src="the-matrix.jpg" alt=""></td>
+                        <td><a href="https://www.warnerbros.com/movies/matrix" target="_blank">The Matrix</a></td>
+                        <td>
+                            <ul>
+                                <li>Amazon Prime</li>
+                                <li>Netflix</li>
+                                <li>Disney+</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img width="30%" src="dune.jpg" alt=""></td>
+                        <td><a href="https://www.dunemovie.net/">Dune</a></td>
+                        <td>
+                            <ul>
+                                <li>Amazon Prime</li>
+                                <li>Netflix</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img width="30%" src="no-country.jpg" alt=""></td>
+                        <td><a href="https://www.miramax.com/movie/no-country-for-old-men/">No country for old men</a>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>HBO Max</li>
+                                <li>Amazon Prime</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <h2>Tabellen Element</h2>
-    <div width="80%">
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Bild</th>
-                    <th>Filmtitel</th>
-                    <th>Streaming-Plattform</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td><img width="30%" src="the-matrix.jpg" alt=""></td>
-                    <td><a href="https://www.warnerbros.com/movies/matrix" target="_blank">The Matrix</a></td>
-                    <td>
-                        <ul>
-                            <li>Amazon Prime</li>
-                            <li>Netflix</li>
-                            <li>Disney+</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td><img width="30%" src="dune.jpg" alt=""></td>
-                    <td><a href="https://www.dunemovie.net/">Dune</a></td>
-                    <td>
-                        <ul>
-                            <li>Amazon Prime</li>
-                            <li>Netflix</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td><img width="30%" src="no-country.jpg" alt=""></td>
-                    <td><a href="https://www.miramax.com/movie/no-country-for-old-men/">No country for old men</a></td>
-                    <td>
-                        <ul>
-                            <li>HBO Max</li>
-                            <li>Amazon Prime</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Später auf der Seite: Der Zielabschnitt -->
+        <div id="section1">
+            <h2>Listen Element</h2>
+            <ol type="A" start="3">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3 </li>
+            </ol>
+        </div>
     </div>
-
-    <!-- Später auf der Seite: Der Zielabschnitt -->
-    <div id="section1">
-        <h2>Listen Element</h2>
-        <ol type="A" start="3">
-            <li>Element 1</li>
-            <li>Element 2</li>
-            <li>Element 3 </li>
-        </ol>
-    </div>
-
 
 </body>
 
