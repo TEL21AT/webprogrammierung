@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weitere Elemente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,200&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Code Pro', monospace;
+            background-color: antiquewhite;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .header-image {
+            width: 100%;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+        }
+
+        .body2 {
+            background-color: white;
+            padding-top: 10px;
+            padding: 16px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .table-container {
+            width: auto;
+            /* Passt die Breite an den Inhalt an */
+            padding: 10px;
+            /* Optional: Fügt etwas Abstand innerhalb des Containers hinzu */
+            /* border: 1px solid black; Fügt einen Rahmen hinzu */
+        }
+
+        table {
+            width: 100%;
+            /* Stellt sicher, dass die Tabelle die volle Breite des Containers einnimmt */
+            border-collapse: collapse;
+            /* Entfernt Abstände zwischen den Tabellenzellen */
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            /* Fügt einen Rahmen für jede Zelle hinzu */
+        }
+
+        table img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        #section1 {
+            margin-top: 500px;
+            /* Großer Abstand oben */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body2">
+        <h1>Elemente</h1>
+
+        <a href="https://www.example.com" target="_blank">Öffne Beispiel.com in einem neuen Tab</a>
+        <br>
+        <a href="mailto:someone@example.com">Sende eine E-Mail</a>
+        <br>
+        <!-- Link, der zu einem Abschnitt der Seite führt -->
+        <a href="#section1">Gehe zu Formularen</a>
+
+        <!-- Später auf der Seite: Der Zielabschnitt -->
+        <div id="section1">
+            <h2>Formulare</h2>
+
+
+            <form action="mailto:tobias.joschko@gmx.de" method="post" enctype="application/x-www-form-urlencoded">
+                <label for=" name">Name:</label>
+                <input required="True" type="text" id="name" name="name"><br><br>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="gender">Geschlecht:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Männlich</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Weiblich</label><br><br>
+
+                <label for="interests">Interessen:</label><br>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Programmieren</label><br>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Musik</label><br><br>
+
+                <label for="country">Land:</label>
+                <select id="country" name="country">
+                    <option value="germany">Deutschland</option>
+                    <option value="usa">USA</option>
+                    <option value="france">Frankreich</option>
+                    <option value="other">Andere</option>
+                </select><br><br>
+
+                <label for="message">Nachricht:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Absenden">
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
