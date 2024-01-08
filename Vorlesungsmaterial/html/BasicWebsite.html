@@ -17,40 +17,64 @@
 </head>
 
 <body>
+    <nav>
+        <a href="https://www.example.com" target="_blank">Öffne Beispiel.com in einem neuen Tab</a>
+        <br>
+        <a href="mailto:someone@example.com">Sende eine E-Mail</a>
+        <br>
+        <!-- Link, der zu einem Abschnitt der Seite führt -->
+        <a href="#section1">Gehe zu Listen Elementen</a>
+    </nav>
+
     <h1>Willkommen auf dem Movie Blog</h1>
     <p>Hier gibt es die neusten Infos über die besten Filme.</p>
 
     <img width="70%" src="header.jpg" alt="header.jpg">
 
     <h2>Tabellen Element</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Alter</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Max Mustermann</td>
-                <td>35</td>
-            </tr>
-            <tr>
-                <td>Erika Musterfrau</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>Erika Musterfrau 2</td>
-                <td>20</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Gesamt</td>
-                <td>55</td>
-            </tr>
-        </tfoot>
-    </table>
+    <div width="80%">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Bild</th>
+                    <th>Filmtitel</th>
+                    <th>Streaming-Plattform</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img width="30%" src="the-matrix.jpg" alt=""></td>
+                    <td>The Matrix</td>
+                    <td>Netflix</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img width="30%" src="dune.jpg" alt=""></td>
+                    <td>Dune</td>
+                    <td>Amazon Prime</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img width="30%" src="no-country.jpg" alt=""></td>
+                    <td>No country for old men</td>
+                    <td>HBO Max</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Später auf der Seite: Der Zielabschnitt -->
+    <div id="section1">
+        <h2>Listen Element</h2>
+        <ol type="A" start="3">
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3 </li>
+        </ol>
+    </div>
 
 
 </body>
