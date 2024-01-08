@@ -6,7 +6,8 @@
 
 ## Setup und Vorraussetzungen
 
-* IDE
-* Node
+* [IDE](https://code.visualstudio.com/)https://code.visualstudio.com/
+* [Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm)https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm
 * NPM
-* MongoDB
+* [Pexels - Website mit linzenfreien Bildern](https://www.pexels.com/de-de/)https://www.pexels.com/de-de/
+* [MongoDB](https://account.mongodb.com/account/login)https://account.mongodb.com/account/login
