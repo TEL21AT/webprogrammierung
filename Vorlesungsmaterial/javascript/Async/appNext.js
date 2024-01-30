@@ -1,0 +1,1 @@
+console.log(`It took: ${Date.now() - start} ms`);
