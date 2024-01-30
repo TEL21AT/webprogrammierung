@@ -1,1 +1,1 @@
-console.log(`It took: ${Date.now() - start} ms`);
+console.log(`AppNext.js: It took: ${Date.now() - start} ms`);
