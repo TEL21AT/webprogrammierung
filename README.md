@@ -27,3 +27,11 @@
 * [BasicWebsite-bootstrap.html](https://tel21at.github.io/webprogrammierung/Vorlesungsmaterial/html/BasicWebsite-bootstrap.html)
 * [weitereElemente](https://tel21at.github.io/webprogrammierung/Vorlesungsmaterial/html/weitereElemente.html)
 * [BasicVueApp](https://tel21at.github.io/webprogrammierung/Vorlesungsmaterial/Vue.js/index.html)
+
+
+## Assignments:
+
+1. Basic Website
+2. Movie Blog Landing page mit Quasar:
+
+   Starte ein neues Quasar Projekt mit der Quasar CLI mit dem Titel “Movie Blog” und designe eine Landing Page für einen Movie Blog. Die Seite sollte eine Top Bar, ein Suchfeld und einen Footer im Layout enthalten. Der Seiteninhalt soll verschiedene Filme mit groben Informationen und einem entsprechenden Titelbild in einer oder mehreren Listen enthalten. Desweiteren soll das Durchschnittsrating des jeweiligen Films dargestellt werden. Beispiele für Listen sind z.B. “Top-Rangliste” oder “Trending Movies”.
