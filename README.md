@@ -37,6 +37,7 @@
    Starte ein neues Quasar Projekt mit der Quasar CLI mit dem Titel “Movie Blog” und designe eine Landing Page für einen Movie Blog. Die Seite sollte eine Top Bar, ein Suchfeld und einen Footer im Layout enthalten. Der Seiteninhalt soll verschiedene Filme mit groben Informationen und einem entsprechenden Titelbild in einer oder mehreren Listen enthalten. Desweiteren soll das Durchschnittsrating des jeweiligen Films dargestellt werden. Beispiele für Listen sind z.B. “Top-Rangliste” oder “Trending Movies”.
 
 3. Movie Detail Page & Authentication:  
+
     Aufbauend auf dem letzten Assignment:  
 
     Desgine eine “Movie Detail” Page im Quasar Movie Blog, auf der sowohl das Titelbild, als auch weitere Details (z.B. Beschreibung, Schauspieler, etc.) zum Film zu sehen sind. Diese sollte über eine Navigationsmöglichkeit über den VueRouter erreichbar sein. Des Weiteren soll es möglich sein, dem Film eine Sternebewertung zu geben und den Film auf die Watchlist hinzuzufügen (muss noch keine echte Funktionalität haben).  
