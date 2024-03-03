@@ -47,3 +47,8 @@
     Grundlage für die Implementierung der Authentifizierung: https://github.com/auth0/auth0-vue  
     Domain: dev-4yituajghfjc8wca.us.auth0.com  
     Client-ID: t9wzEOtOAx3CyOLSQt8QU39cTrE2Gg1X
+
+
+## Probeklausur:
+- [Klausur](https://github.com/TEL21AT/webprogrammierung/blob/main/Vorlesungsmaterial/Uebungsmaterial/ProbeKlausur.pdf)
+- Lösung: .... folgt im Laufe der Woche
