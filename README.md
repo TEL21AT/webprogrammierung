@@ -19,6 +19,9 @@
   - [W3School](https://www.w3schools.com/html/default.asp)
   - [MDN](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML)
 - [Google style guidelines](https://google.github.io/styleguide/htmlcssguide.html)
+- Studenten Vorteile:
+  - [GitHub Student Developer Package](https://education.github.com/pack#offers) mit verschieden Vorteilen wir z.B. $50 MongoDB Atlas Guthaben
+  - [Microsoft Azure für Studenten mit $100 Gutschrift](https://azure.microsoft.com/de-de/free/students/)
 
 
 ## GitHub pages Deployment
