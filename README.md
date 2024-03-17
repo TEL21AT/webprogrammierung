@@ -54,4 +54,4 @@
 
 ## Probeklausur:
 - [Klausur](https://github.com/TEL21AT/webprogrammierung/blob/main/Vorlesungsmaterial/Uebungsmaterial/ProbeKlausur.pdf)
-- Lösung: .... folgt im Laufe der Woche
+- [Lösung](https://github.com/TEL21AT/webprogrammierung/blob/main/Vorlesungsmaterial/Uebungsmaterial/ProbeKlausurLoesung.pdf)
